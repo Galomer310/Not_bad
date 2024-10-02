@@ -1,15 +1,14 @@
 // 1
-var sentence = "the hot dog stand in the city center is not so bad";
+var sentence = "the movie is not that bad, i like it";
 console.log(sentence);
 // 2
-
 var wordNot = sentence.indexOf("not");
-console.log(`The word Not is at position ${wordNot}`);
+console.log(`The word Not position is ${wordNot}`);
 // 3
 var wordBad = sentence.indexOf("bad");
-console.log(`The Word bad is at position ${wordBad}`);
+console.log(`The Word bad position is ${wordBad}`);
 // 4
-let newSentence = sentence.replace('not', '');
-let newSentence1 = newSentence.replace('bad', 'good');
-console.log(newSentence1);
+let newSentence = sentence.replace('not that bad', 'good');
+
+console.log(newSentence);
 
